@@ -24,60 +24,6 @@
 			box-shadow: 0 4px 6px rgba(0, 0, 0, .4);
 		}
 
-		#overlay {
-			width: 100vw;
-			height: 100vh;
-			display: none;
-			animation: fade 5s;
-			-webkit-animation: fade 500ms;
-			-moz-animation: fade 500ms;
-			-o-animation: fade 500ms;
-		}
-
-		#overlay.active {
-			display: block;
-		}
-
-		@keyframes fade {
-			0% {
-				opacity: 0;
-			}
-
-			100% {
-				opacity: 1;
-			}
-		}
-
-		@-moz-keyframes fade {
-			0% {
-				opacity: 0;
-			}
-
-			100% {
-				opacity: 1;
-			}
-		}
-
-		@-webkit-keyframes fade {
-			0% {
-				opacity: 0;
-			}
-
-			100% {
-				opacity: 1;
-			}
-		}
-
-		@-o-keyframes fade {
-			0% {
-				opacity: 0;
-			}
-
-			100% {
-				opacity: 1;
-			}
-		}
-
 		.burger {
 			height: 16px
 		}
