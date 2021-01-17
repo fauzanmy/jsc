@@ -1,0 +1,2 @@
+# jsc
+Javascipt Simple Code
