@@ -5,10 +5,13 @@
 	let sidenav = document.querySelector('#sidenav');
 
 	// Burger click function
+
 	burger.addEventListener('click', function () {
 		sidenav.classList.add('active');
 	});
+
 	// Close button click function
+
 	close.addEventListener('click', function () {
 		sidenav.classList.remove('active');
 	});
